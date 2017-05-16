@@ -1,0 +1,12 @@
+#!/bin/bash
+
+NAME=$1
+
+LIB_PATH=$PWD/libs
+DEP_PATH=/usr/local/opt/$NAME
+
+cd $DEP_PATH
+files=$(find -L . -iname \*.dylib -o -iname \*.so -o -iname \*.h)
+rsync -LRv $files $LIB_PATH/$NAME/
+
+# cp -LR $DEP_PATH libs/

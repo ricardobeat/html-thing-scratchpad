@@ -1,0 +1,28 @@
+name: html-thing
+version: 0.1.0
+
+authors:
+  - Ricardo Tomasi <ricardo.tomasi@booking.com>
+
+
+crystal: 0.20.1
+
+license: MIT
+
+dependencies:
+  crsfml:
+    github: BlaXpirit/crsfml
+    version: 2.4.3
+
+  sdl:
+    github: ysbaddaden/sdl.cr
+
+  glfw:
+    github: jellymann/crystal_glfw
+
+  lib_gl:
+    github: jellymann/crystal_lib_gl
+    branch: master
+
+  libui:
+    github: Fusion/libui.cr

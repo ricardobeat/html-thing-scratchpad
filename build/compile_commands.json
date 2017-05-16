@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/Users/rtomasi/Projects/html-thing/build",
+    "command": "c++  '-Ithing@exe' '-I.' '-I..' '-Xclang' '-fcolor-diagnostics' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-std=c++11' '-O0' '-g' '-MMD' '-MQ' 'thing@exe/thing.cpp.o' '-MF' 'thing@exe/thing.cpp.o.d' -o 'thing@exe/thing.cpp.o' -c ../thing.cpp",
+    "file": "../thing.cpp"
+  }
+]

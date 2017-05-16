@@ -1,0 +1,23 @@
+Build started at 2017-04-14T00:27:10.060177
+Python binary: /usr/local/opt/python3/bin/python3.6
+Python system: Darwin
+The Meson build system
+Version: 0.39.1
+Source dir: /Users/rtomasi/Projects/html-thing
+Build dir: /Users/rtomasi/Projects/html-thing/build
+Build type: native build
+Project name: thing
+Sanity testing cpp compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /Users/rtomasi/Projects/html-thing/build/meson-private/sanitycheckcpp.cc -o /Users/rtomasi/Projects/html-thing/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /Users/rtomasi/Projects/html-thing/build/meson-private/sanitycheckcpp.exe
+Native cpp compiler: c++ (clang 8.0.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Build targets in project: 1

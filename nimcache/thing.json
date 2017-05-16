@@ -1,0 +1,12 @@
+{"compile":[
+["/Users/rtomasi/Projects/html-thing/nimcache/thing.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.16.0/nim/lib -o /Users/rtomasi/Projects/html-thing/nimcache/thing.o /Users/rtomasi/Projects/html-thing/nimcache/thing.c"],
+["/Users/rtomasi/Projects/html-thing/nimcache/stdlib_system.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.16.0/nim/lib -o /Users/rtomasi/Projects/html-thing/nimcache/stdlib_system.o /Users/rtomasi/Projects/html-thing/nimcache/stdlib_system.c"]
+],
+"extcompile":[
+],
+"link":[
+"/Users/rtomasi/Projects/html-thing/nimcache/stdlib_system.o",
+"/Users/rtomasi/Projects/html-thing/nimcache/thing.o"
+],
+"linkcmd": "clang   -o /Users/rtomasi/Projects/html-thing/thing  /Users/rtomasi/Projects/html-thing/nimcache/stdlib_system.o /Users/rtomasi/Projects/html-thing/nimcache/thing.o  -ldl"
+}
